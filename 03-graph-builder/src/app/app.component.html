@@ -1,0 +1,11 @@
+<div class="toolbar">
+  <button (click)="addService()">Add Service</button>
+  <button (click)="reset()">Reset</button>
+</div>
+
+<!--
+  Pass the current signal value to the child with [graphData]="graphData()".
+  Every time graphData changes, Angular re-evaluates this binding and updates
+  the child's signal input, which triggers the effect inside GraphViewComponent.
+-->
+<app-graph-view [graphData]="graphData()" />

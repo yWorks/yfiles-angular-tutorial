@@ -1,0 +1,19 @@
+{
+  "nodesSource": [
+    { "id": 1, "name": "Client" },
+    { "id": 2, "name": "API Gateway" },
+    { "id": 3, "name": "Auth Service" },
+    { "id": 4, "name": "User Service" },
+    { "id": 5, "name": "Order Service" },
+    { "id": 6, "name": "Database" }
+  ],
+  "edgesSource": [
+    { "fromNode": 1, "toNode": 2 },
+    { "fromNode": 2, "toNode": 3 },
+    { "fromNode": 2, "toNode": 4 },
+    { "fromNode": 2, "toNode": 5 },
+    { "fromNode": 3, "toNode": 6 },
+    { "fromNode": 4, "toNode": 6 },
+    { "fromNode": 5, "toNode": 6 }
+  ]
+}

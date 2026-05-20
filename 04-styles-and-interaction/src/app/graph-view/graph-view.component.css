@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  /* position: relative lets the InfoPanel overlay position itself
+     relative to the graph area rather than the whole viewport */
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.graph-container {
+  width: 100%;
+  height: 100%;
+}

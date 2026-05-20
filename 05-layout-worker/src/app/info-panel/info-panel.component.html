@@ -1,0 +1,21 @@
+@if (nodeData(); as node) {
+  <div class="panel">
+    <div class="panel-title">{{ node.name }}</div>
+    <div class="panel-row">
+      <span class="label">Type</span><span class="value">{{ node.type }}</span>
+    </div>
+    <div class="panel-row">
+      <span class="label">ID</span><span class="value">{{ node.id }}</span>
+    </div>
+  </div>
+} @else if (edgeInfo(); as edge) {
+  <div class="panel">
+    <div class="panel-title">Connection</div>
+    <div class="panel-row">
+      <span class="label">From</span><span class="value">{{ edge.sourceName }}</span>
+    </div>
+    <div class="panel-row">
+      <span class="label">To</span><span class="value">{{ edge.targetName }}</span>
+    </div>
+  </div>
+}

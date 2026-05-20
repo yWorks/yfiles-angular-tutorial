@@ -1,0 +1,9 @@
+<div class="toolbar">
+  <button (click)="addService()">Add Service</button>
+  <button (click)="reset()">Reset</button>
+  <span class="separator"></span>
+  <!-- ToolbarComponent injects GraphComponentService itself — no inputs needed -->
+  <app-toolbar />
+</div>
+
+<app-graph-view [graphData]="graphData()" />

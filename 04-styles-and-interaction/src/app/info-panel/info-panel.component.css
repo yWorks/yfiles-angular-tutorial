@@ -1,0 +1,35 @@
+.panel {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  min-width: 180px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.panel-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.panel-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.label {
+  color: #888;
+  min-width: 40px;
+}
+
+.value {
+  color: #333;
+  font-weight: 500;
+}

@@ -1,0 +1,6 @@
+<!-- The graph canvas fills the host element -->
+<div #graphContainer class="graph-container"></div>
+
+<!-- InfoPanel is overlaid on top of the canvas.
+     It renders only when an item is focused (handled inside the component). -->
+<app-info-panel [item]="currentItem()" />

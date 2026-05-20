@@ -1,0 +1,20 @@
+{
+  "name": "yfiles-angular-tutorial",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@yfiles/yfiles": "./path/to/yfiles-<yFiles version>+dev.tgz"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "workspaces": [
+    "01-setup",
+    "02-first-graph",
+    "03-graph-builder",
+    "04-styles-and-interaction",
+    "05-layout-worker"
+  ]
+}
